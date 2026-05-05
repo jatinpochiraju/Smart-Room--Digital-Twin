@@ -1,6 +1,6 @@
 #  Smart Room – Digital Twin
 
-## 📌 Project Overview
+## Project Overview
 This project creates a **digital twin of a smart room**, enabling interactive control and visualization of various room components.  
 The simulation is built using **Unity** and scripted in **C#**, demonstrating smart environment automation concepts.
 
