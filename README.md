@@ -1,4 +1,4 @@
-# 🏠 Smart Room – Digital Twin
+#  Smart Room – Digital Twin
 
 ## 📌 Project Overview
 This project creates a **digital twin of a smart room**, enabling interactive control and visualization of various room components.  
@@ -6,21 +6,21 @@ The simulation is built using **Unity** and scripted in **C#**, demonstrating sm
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔐 **Door Control with PIN**  
+-  **Door Control with PIN**  
   Secure access system where doors can be locked/unlocked using a PIN code.
 
-- 💡 **Lighting System**  
+-  **Lighting System**  
   Toggle room lights on/off interactively.
 
-- 🌀 **Fan Simulation**  
+-  **Fan Simulation**  
   Multiple fan controllers (`SpinFan1.cs` to `SpinFan4.cs`) simulate realistic fan behavior.
 
-- 🔴 **LED Indicators**  
+-  **LED Indicators**  
   Manage LED states within the room.
 
-- 🎮 **First-Person Controller**  
+-  **First-Person Controller**  
   Navigate the virtual room using FPS controls.
 
 ---
@@ -37,11 +37,11 @@ The simulation is built using **Unity** and scripted in **C#**, demonstrating sm
 
 ---
 
-## ⚠️ Important Note
+##  Important Note
 
 > This repository contains **only the C# scripts and screenshots**.
 
-- ❌ Unity assets (scenes, models, prefabs, materials) are **NOT included**
+-  Unity assets (scenes, models, prefabs, materials) are **NOT included**
 - To run the project:
   1. Create a new Unity project  
   2. Import these scripts  
@@ -50,7 +50,7 @@ The simulation is built using **Unity** and scripted in **C#**, demonstrating sm
 
 ---
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 - Unity (recommended latest version)
 - (Optional) Arduino IDE  
@@ -58,10 +58,10 @@ The simulation is built using **Unity** and scripted in **C#**, demonstrating sm
 
 ---
 
-## 🖼️ Screenshot
+##  Screenshot
 
-### 📸 Smart Room Simulation
-## 🖼️ Screenshots
+###  Smart Room Simulation
+##  Screenshots
 
 ![](Unity%20Screenshot%201.png)
 ![](Unity%20Screenshot%202.png)
@@ -69,7 +69,7 @@ The simulation is built using **Unity** and scripted in **C#**, demonstrating sm
 ![](Unity%20Screenshot%204.png)
 
 
-## ⚙️ How It Works
+##  How It Works
 
 - User navigates the room using **FPSController**
 - Interacts with objects:
@@ -79,7 +79,7 @@ The simulation is built using **Unity** and scripted in **C#**, demonstrating sm
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 - Digital Twin Simulation
 - Smart Home Automation Prototype
