@@ -1,41 +1,88 @@
-# Smart-Room--Digital-Twin
+# 🏠 Smart Room – Digital Twin
 
-Project Overview
-This project creates a digital twin of a smart room, allowing for interactive control and visualization of various room components. The simulation is built using Unity and scripted in C#.​
+## 📌 Project Overview
+This project creates a **digital twin of a smart room**, enabling interactive control and visualization of various room components.  
+The simulation is built using **Unity** and scripted in **C#**, demonstrating smart environment automation concepts.
 
-Features
-Door Control with PIN: Implements a security feature where doors can be locked or unlocked using a PIN code.
+---
 
-Lighting System: Controls the room's lighting, allowing for toggling lights on and off.
+## 🚀 Features
 
-Fan Simulation: Includes multiple fan controllers (SpinFan1.cs to SpinFan4.cs) to simulate fan operations.
+- 🔐 **Door Control with PIN**  
+  Secure access system where doors can be locked/unlocked using a PIN code.
 
-LED Indicators: Manages LED states within the room.
+- 💡 **Lighting System**  
+  Toggle room lights on/off interactively.
 
-First-Person Controller: Enables user navigation within the virtual room environment.​
-GitHub
+- 🌀 **Fan Simulation**  
+  Multiple fan controllers (`SpinFan1.cs` to `SpinFan4.cs`) simulate realistic fan behavior.
 
-Repository Structure
-DoorWithPIN.cs: Handles door locking mechanism with PIN verification.
+- 🔴 **LED Indicators**  
+  Manage LED states within the room.
 
-LightController.cs: Manages the lighting system within the room.
+- 🎮 **First-Person Controller**  
+  Navigate the virtual room using FPS controls.
 
-FanController.cs: Controls the fan operations.
+---
 
-LEDController.cs: Manages the LED indicators.
+## 📂 Repository Structure
 
-FPSController.cs: Provides first-person navigation controls.
+- `DoorWithPIN.cs` → Door locking mechanism with PIN verification  
+- `LightController.cs` → Lighting system control  
+- `FanController.cs` → Fan operation control  
+- `LEDController.cs` → LED indicator management  
+- `FPSController.cs` → First-person navigation  
+- `SpinFan1.cs – SpinFan4.cs` → Individual fan simulation scripts  
+- `Unity Screenshot 1.png – Unity Screenshot 4.png` → Project visuals  
 
-SpinFan1.cs to SpinFan4.cs: Scripts for individual fan simulations.
+---
 
-Unity Screenshot 1.png to Unity Screenshot 4.png: Visual representations of the smart room simulation.​
+## ⚠️ Important Note
 
-Getting Started
-To run this project:
+> This repository contains **only the C# scripts and screenshots**.
 
-Prerequisites: Ensure you have Unity & Arduino IDE installed on your system.
-               Basic Understanding of ESP8266 or any other Arduino board
+- ❌ Unity assets (scenes, models, prefabs, materials) are **NOT included**
+- To run the project:
+  1. Create a new Unity project  
+  2. Import these scripts  
+  3. Attach them to appropriate GameObjects  
+  4. Recreate the scene setup  
+
+---
+
+## 🛠️ Prerequisites
+
+- Unity (recommended latest version)
+- (Optional) Arduino IDE  
+- Basic understanding of ESP8266 / Arduino (for hardware integration concepts)
+
+---
+
+## 🖼️ Screenshot
+
+### 📸 Smart Room Simulation
+## 🖼️ Screenshots
+
+![](Unity%20Screenshot%201.png)
+![](Unity%20Screenshot%202.png)
+![](Unity%20Screenshot%203.png)
+![](Unity%20Screenshot%204.png)
 
 
-Screenshots
-The repository includes several screenshots (Unity Screenshot 1.png to Unity Screenshot 4.png) that showcase the smart room's interface and features.
+## ⚙️ How It Works
+
+- User navigates the room using **FPSController**
+- Interacts with objects:
+  - Enter PIN → Unlock door  
+  - Toggle switches → Control lights, LEDs, fans  
+- Fan scripts simulate **rotation and dynamic behavior**
+
+---
+
+## 🎯 Use Cases
+
+- Digital Twin Simulation
+- Smart Home Automation Prototype
+- Unity + IoT Learning Project
+- Academic Demonstrations
+
